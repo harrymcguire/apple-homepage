@@ -1,11 +1,56 @@
 <html>
 <head>
 <style>
+body {
+    background-position-x: 60%;
+    background-position-y: 67.5%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("your_verse_hero.jpg");
+}
+#navDiv {
+    width: 980px;
+    height: 36px;
+    background: linear-gradient(to bottom, rgba(115,115,115,1) 0%, rgba(94,94,94,1) 49%, rgba(112,112,112,1) 50%, rgba(141,141,141,1) 100%);
+    margin: 0 auto;
+    border-radius: 6px;
+    margin-top: 15px;
+}
 
+#navDiv div{
+    float: left;
+    width: 105px;
+    height: 36px;
+}
+#navDiv div:hover{
+    background-color: red;
+}
+.navBackgroundImage{
+    background-image: url("globalnav_text.png");
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 15px;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
 </style>
 </head>
 <body>
+<div id="navDiv">
+        <div style="background-position-y: -1%;"><span class="navBackgroundImage"></span></div>
+        <div style="background-position-y: -16%;"><span class="navBackgroundImage"></span></div style="background-position-y: -1%;">
+        <div style="background-position-y: -31%;"><span class="navBackgroundImage"></span></div style="background-position-y: -1%;">
+        <div style="background-position-y: -46%;"><span class="navBackgroundImage"></span></div>
+        <div style="background-position-y: -61%;"><span class="navBackgroundImage"></span></div style="background-position-y: -1%;">
+        <div style="background-position-y: -76%;"><span class="navBackgroundImage"></span></div style="background-position-y: -1%;">
+        <div style="background-position-y: -91%;"><span class="navBackgroundImage"></span></div style="background-position-y: -1%;">
+        <div  style="background-position-y: -106%;" id="navSearch"></div>
 
+    </div>
+
+</div>
 
 </body>
 </html>
